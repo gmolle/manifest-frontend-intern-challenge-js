@@ -23,7 +23,7 @@ export default function Button({
       disabled
         ? "border-[#ccc] text-gray-400 cursor-not-allowed"
         : inverted
-        ? "bg-[#3B968B] text-white hover:bg-white hover:text-[#3B968B] border-none cursor-pointer"
+        ? "border-[#3B968B] bg-[#3B968B] text-white hover:bg-white hover:text-[#3B968B] cursor-pointer"
         : "border-[#3B968B] text-[#3B968B] hover:bg-[#3B968B] hover:text-white active:bg-[#3B968B] cursor-pointer"
     ),
     text: clsx(

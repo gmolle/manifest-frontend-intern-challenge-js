@@ -10,7 +10,7 @@ export default function ButtonGrid() {
           <h2 className="text-lg font-semibold capitalize mb-2">
             {variant} button
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
             <Button variant={variant}>Default</Button>
             <Button variant={variant} disabled>
               Disabled

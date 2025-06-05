@@ -48,4 +48,9 @@ describe("Button component", () => {
     const btn = screen.getByRole("button");
     expect(btn).toHaveClass("bg-[#3B968B]", "text-white");
   });
+  test("button has disabled attribute when disabled prop is true", () => {
+    render(<Button disabled>Disabled</Button>);
+    const btn = screen.getByRole("button");
+    expect(btn).toBeDisabled();
+  });
 });
