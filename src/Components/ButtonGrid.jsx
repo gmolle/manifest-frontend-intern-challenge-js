@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./Button/Button";
 
 export default function ButtonGrid() {
   const variants = ["primary", "secondary", "text"];
